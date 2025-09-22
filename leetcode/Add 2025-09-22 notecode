@@ -1,0 +1,12 @@
+def sortedSquares(nums):
+    return sorted([x * x for x in nums])
+
+# Example usage
+print(sortedSquares([-4, -1, 0, 3, 10]))
+
+
+def findNumbers(nums):
+    return sum(1 for num in nums if len(str(num)) % 2 == 0)
+
+# Example usage
+print(findNumbers([12, 345, 2, 6, 7896]))
